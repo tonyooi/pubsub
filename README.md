@@ -31,9 +31,9 @@ Usage:-
 ## PubSubOOP.js
 ### v0.0.2
 
-PubSub.js is s general purpose pubsub but with context attached/specified.
+PubSubOOP.js is s general purpose pubsub but with context attached/specified.
 
-Difference with PubSub is when subscribing pass the context and function as an object.
+Difference with PubSub is when subscribing, pass the context and function as an object.
 Example
 ```
   pubsub.subscribe('greet' , { ctx : this , func : this.greet });
